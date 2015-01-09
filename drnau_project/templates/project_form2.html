@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <form id="form_project" method="POST" action="">
+        {% csrf_token %}
+        {{ form.as_p }}
+        {{ sub_form.as_p }}
+    <p><button type="submit"> submit </button></p>
+    </form>
+
+{%endblock  %}
+
+con crispy
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+        {% csrf_token %}
+        {%crispy form%}
+        {%crispy sub_form%}
+
+
+{%endblock  %}

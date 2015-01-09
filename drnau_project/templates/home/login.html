@@ -1,0 +1,107 @@
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <script type="text/javascript">
+   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
+</script>
+  
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2014.0.1.264"/>
+  <title>Inicio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="/static/css/site_global.css?475048684"/>
+  <link rel="stylesheet" type="text/css" href="/static/css/login.css?4149196776" id="pagesheet"/>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+  </script>
+   </head>
+ <body>
+
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clearfix colelem" id="pslideshowu169"><!-- group -->
+	<!-- ############## Para el slider ######################  -->
+     <div class="SlideShowWidget clearfix grpelem" id="slideshowu169"><!-- none box -->
+      <div class="popup_anchor" id="u178popup">
+       <div class="SlideShowContentPanel clearfix" id="u178"><!-- stack box -->
+        <div class="SSSlide clip_frame grpelem" id="u179"><!-- image -->
+       
+        </div>
+       </div>
+      </div>
+     </div>
+	 <!--###################### Termina slider ########################## -->
+	 
+	  <!--###################### Comienza encabezado de la pagina ########################## -->
+     <div class="grpelem" id="pu192"><!-- inclusion -->
+      
+        <div class="clearfix" id="pu194"><!-- group centrado -->
+         <div class="clip_frame grpelem" id="u194"><!-- image -->
+          <img class="block" id="u194_img" src="/static/images/png%2010.png" alt="" width="280" height="110"/>
+         </div>
+        </div>
+     </div>
+    
+	  <!--###################### Termina encabezado de la pagina ########################## -->
+    </div>
+    <div class="colelem" id="u190"> <!-- simple frame -->
+	 <div class="colelem" id="f">
+	  <div class="container">
+          <br>
+          <br>
+      <div class="row">
+        <div class="col-xs-5 col-xs-offset-4 col-xs-7 col-xs-offset-0">
+        {% csrf_token %}
+        {% crispy form form.helper %}
+        </div>
+      </div>
+    </div>
+	 </div>
+	</div>
+    <div class="colelem" id="pu191"><!-- inclusion -->
+     <div id="u191"><!-- simple frame -->
+      <div class="_u191 f3s_top" id="_u191-f3s_top"></div>
+     </div>
+     <div class="clearfix" id="pu200-4"><!-- group -->
+      <div class="clearfix grpelem" id="u200-4"><!-- content -->
+       <p><b>Interactividad Televisión Digital Argentina | laboratorio.tvdt.unpa.uarg@gmail.com | UNPA - UARG </b> </p>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer"></div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script src="/static/js/museutils.js?353204447" type="text/javascript"></script>
+  <script src="/static/js/webpro.js?317917375" type="text/javascript"></script>
+  <script src="/static/js/musewpslideshow.js?177288662" type="text/javascript"></script>
+  <script src="/static/js/jquery.museoverlay.js?524248676" type="text/javascript"></script>
+  <script src="/static/js/touchswipe.js?367691663" type="text/javascript"></script>
+  <script src="/static/js/jquery.watch.js?3923049248" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
+for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),l=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":l=l.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(l);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(l);break;case "js":l.match(/^jquery-[\d\.]+/gi)&&
+typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();(Muse.assets.outOfDate.length||Muse.assets.required.length)&&alert("Puede que determinados archivos falten en el servidor o sean incorrectos. Limpie la cache del navegador e inténtelo de nuevo. Si el problema persiste, póngase en contacto con el administrador del sitio web.")})()})();
+/* body */
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('#slideshowu169', function(elem) { $(elem).data('widget', new WebPro.Widget.ContentSlideShow(elem, {heroFitting:'fillFrameProportionally',autoPlay:true,displayInterval:3500,slideLinkStopsSlideShow:false,transitionStyle:'fading',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false})); });/* #slideshowu169 */
+Muse.Utils.fullPage('#page');/* 100% height page */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>

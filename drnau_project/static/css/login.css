@@ -1,0 +1,289 @@
+.version.index /* version checker */
+{
+	color: #0000F7;
+	background-color: #4FB7E8;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 1002px;
+	min-height: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -110px;/*original 35*/
+
+}
+
+#pslideshowu169
+{
+	width: 0.01px;
+	margin-left: -100px;
+}
+
+#slideshowu169
+{
+	z-index: 2;
+	width: 0.01px;
+	height: 730px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u178
+{
+	position: absolute;
+	width: 1202px;
+	height: 730px;
+	background-color: transparent;
+}
+
+#u178popup
+{
+	z-index: 3;
+}
+
+#u179
+{
+	z-index: 4;
+	width: 1202px;
+	height: 730px;
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	margin-right: -10000px;
+	position: relative;
+}
+
+.SSFirstButton,.SSPreviousButton,.SSNextButton,.SSLastButton,.SSSlideLink,.SSCloseButton /* slideshowFreeStyle */
+{
+	cursor: pointer;
+}
+
+.SSSlideLoading /* slideshowFreeStyle */
+{
+	background: url("../images/loading.gif") no-repeat center center;
+}
+
+#pu192
+{
+	z-index: 8;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 170px;
+	margin-left: 100px;
+}
+
+._u192.f3s_top
+{
+	background-image: url("../images/u192-sprite.png");
+	width: 1002px;
+	overflow: hidden;
+	height: 21px;
+	background-position: left top;
+}
+
+._u192.f3s_mid
+{
+	background-image: url("../images/u192-sprite.png");
+	overflow: visible;
+	background-position: -1002px top;
+	width: 1002px;
+	height: 109px;
+}
+
+._u192.f3s_bot
+{
+	background-image: url("../images/u192-sprite.png");
+	width: 1002px;
+	overflow: visible;
+	height: 20px;
+	background-position: -2004px top;
+}
+
+#ppu193
+{
+	width: 0.01px;
+	position: relative;
+	left: 10px;
+	padding-top: 10px;
+	z-index: 2;
+	padding-bottom: 11px;
+}
+
+#pu193
+{
+	z-index: 9;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u193
+{
+	z-index: 0;
+	width: 982px;
+	opacity: 0.75;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+._u193.f3s_top
+{
+	background-image: url("../images/u193-sprite.png");
+	width: 982px;
+	overflow: hidden;
+	height: 11px;
+	background-position: left top;
+}
+
+._u193.f3s_mid
+{
+	background-image: url("../images/u193-sprite.png");
+	overflow: visible;
+	background-position: -982px top;
+	width: 982px;
+	height: 108px;
+}
+
+._u193.f3s_bot
+{
+	background-image: url("../images/u193-sprite.png");
+	width: 982px;
+	overflow: visible;
+	height: 10px;
+	background-position: -1964px top;
+}
+
+#pu194
+{
+	width: 0.01px;
+	position: relative;
+	left: 330px;
+	padding-top: 11px;
+	z-index: 2;
+	padding-bottom: 14px;
+}
+
+#u194
+{
+	z-index: 10;
+	width: 300px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#f
+{
+	margin-bottom: -448px;
+	margin-top:10px;
+	font-size:18px;
+	/*color:#893914;*/
+    text-align:justify;
+	width: 800px;
+	height: 444px;
+	position:relative;
+	z-index: 7;
+	margin-left:10px;
+}
+#u190
+{
+	
+	z-index: 6;
+	width: 501px;
+	height: 300px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	/*opacity: 0.25;*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: alpha(opacity=25);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	top: -430px; /*-548*/
+	left: 250px; /*no estaba*/
+	margin-bottom: -300px;
+	position: relative;
+}
+
+#pu191
+{
+	z-index: 7;
+	width: 0.01px;
+	position: relative;
+	margin-top: -54px;
+}
+
+#u192,#u191
+{
+	z-index: 0;
+	width: 1002px;
+	opacity: 0.25;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+	filter: alpha(opacity=25);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+._u191.f3s_top
+{
+	background-image: url("../images/u191-full.png");
+	height: 35px;
+	background-position: left top;
+	width: 1002px;
+}
+
+#pu200-4
+{
+	width: 0.01px;
+	position: relative;
+	left: 150px;
+	padding-top: 11px;
+	z-index: 2;
+	padding-bottom: 7px;
+}
+
+#u200-4
+{
+	z-index: 12;
+	width: 714px;
+	min-height: 7px;
+	color: #434343;
+	font-size: 14px;
+	text-align: center;
+	font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+	font-weight: normal;
+	position: relative;
+	margin-right: -10000px;
+}
+
+body
+{
+	position: relative;
+	min-width: 1002px;
+	padding-top: 35px;
+	background-image: url('../images/fondo2.jpg');
+	background-size: 1202px, 790px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

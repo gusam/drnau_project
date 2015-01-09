@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}
+Security
+{% endblock %}
+{% load crispy_forms_tags %}
+ <head>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+ <div class="container">
+      <div class="row">
+{% block content %}
+
+    {% if user.is_authenticated %}
+      Bienvenido {{ user.username|capfirst}}
+       <a href="cerrar">Salir</a>
+        <a href="/add-project">Nuevo Proyecto</a>
+    {% else %}
+    <form method="post">
+     {% csrf_token %}
+     <label>Usuario: </label>
+    <input name="username" type="text" placeholder="Usuario">
+    <label>Contraseña</label>
+    <input name="password" type="password"placeholder="Contraseña">
+    <button type="submit">Ingresar</button>
+    </form>
+    {% endif %}
+{% endblock %}
+</div>
+ </div>
